@@ -4,7 +4,7 @@ body {
 /*nav bar*/
 .navbar-default {
     background-color: #ffffff;
-    border-color: #006AFF;
+    border-color: #031C4E;
     color: #031C4E;
     font-weight: 800;
 }
@@ -40,6 +40,7 @@ body {
 
 /* Medium devices (desktops, 992px or less) */
 @media (max-width:992px) {
+    /*copy-paste*/
     .navbar-header {
         float: none;
     }
@@ -74,6 +75,7 @@ body {
     .collapse.in{
   		display:block !important;
 	}
+    /*copy-paste*/
     /* my_edit */
     #link-mid {
         margin-left: 0; /*soluzine da rivedere*/
