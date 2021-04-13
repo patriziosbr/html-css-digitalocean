@@ -74,8 +74,12 @@ body {
     .collapse.in{
   		display:block !important;
 	}
+    /* my_edit */
     #link-mid {
         margin-left: 0; /*soluzine da rivedere*/
+    }
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+        max-height: 540px;
     }
 }
 
