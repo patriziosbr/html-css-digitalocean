@@ -83,6 +83,12 @@ body {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height: 540px;
     }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #006AFF;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
