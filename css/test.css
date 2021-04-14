@@ -112,14 +112,13 @@ body {
 /*MAIN*/
 
 /* Deploy area */
-
 .deploy h2 {
     padding-top: 24px;
     color: #031C4E;
     font-size: 35px;
     font-weight: 600;
 }
-.deploy p.subhead {
+p.subhead {
     color: #62708D;
     font-size: 19px;
 }
@@ -151,6 +150,45 @@ body {
     color: #79849D;
 }
 
+/* designers DA FARE AUMENTI FONT */
+.designer {
+    background-color: #F3F5F9;
+    padding: 48px 0;
+}
+.designer h2 {
+    padding: 24px 0;
+    color: #031C4E;
+    font-size: 35px;
+    font-weight: 600;
+}
+.designer img {
+    height: 200px;
+    margin-bottom: 16px;
+}
+.designer p {
+    padding-bottom: 80px;
+    color: #031C4E;
+    font-weight: 700;
+}
+.designer figcaption {
+    color: #031C4E;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+.dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #006AFF;
+    border-radius: 50%;;
+}
+.dot_full {
+    background-color: #006AFF;
+}
+/* chevron */
+.my_chevron {
+    display: none;
+}
 
 /* Small devices (tablets, 768px and up) */ 
 @media screen and (min-width:768px) {
@@ -239,6 +277,31 @@ body {
         font-size: 17px;
         color: #79849D;
     }
+    /*designer area*/
+    .designer h2 {
+        font-size: 41px;
+        font-weight: 600;
+    }
+    .designer img {
+        height: 300px;
+    }
+    .designer p {
+        font-size: 23px;
+        font-weight: 700;
+    }
+    /* chevron */
+    .my_chevron {
+        display: inline-block;
+        font-size: 32px;
+    }
+    .chev_lft {
+        color:  #79849D;
+        margin-right: 16px;
+    }
+    .chev_rgt {
+        color: #031C4E;
+        margin-left: 16px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -263,23 +326,45 @@ body {
 
     /* Deploy area */
     .deploy h2 {
-        color: #031C4E;
         font-size: 35px;
-        font-weight: 600;
     }
     .deploy p.subhead {
-        color: #62708D;
         font-size: 23px;
     }
     .dep_four_item h5{
         font-size: 20px;
-        font-weight: 700;
-        color: #031C4E;
     }
     .dep_four_item p{
         font-size: 17px;
         color: #79849D;
     }
-
+    /*designer area*/
+    .designer h2 {
+        padding: 0;
+        font-size: 35px;
+    }
+    .designer img {
+        height: 350px;
+    }
+    .designer p {
+        padding: 16px;
+        font-size: 16px;
+    }
+    /* chevron */
+    .my_chevron {
+        display: inline-block;
+        font-size: 36px;
+    }
+    .chev_lft {
+        color:  #79849D;
+        margin-right: 16px;
+    }
+    .chev_rgt {
+        color: #031C4E;
+        margin-left: 16px;
+    }
+    .designer figcaption {
+        padding-bottom: 8px;
+    }
     
 }
