@@ -55,7 +55,8 @@ body {
     background-color: #ffffff;
     color: #031C4E;
 }
-.small_form h2 {
+.small_form h4 {
+    font-size: 30px;
     font-weight: 700;
     line-height: 150%;
 }
@@ -93,6 +94,21 @@ body {
 #heading_jumbo p {
     font-size: 20px;
 }
+/*logos area*/
+.logo {
+    background-color: #F3F5F9;
+}
+.logo h3 {
+    font-size: 15px;
+    letter-spacing: 1%;
+    padding: 24px 0;
+    text-transform: uppercase;
+    color: #6F7B97;
+}
+.logo .container .row a {
+    padding: 32px 0;
+}
+
 
 
 
@@ -141,7 +157,6 @@ body {
 	}
     /*copy-paste*/
     /* my_edit */
-    
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height: 540px;
     }
@@ -159,6 +174,11 @@ body {
         font-size: 21px;
         line-height: 150%;
     }
+    /*logo area heading*/
+    .logo h3 {
+        font-size: 17px;
+        /* letter-spacing: 1% !important; non funziona */
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -174,5 +194,9 @@ body {
     #link-mid {
         margin-left: 80px; /*soluzine da rivedere*/
     }
-    
+    /*logo area heading*/
+    .logo h3 {
+        font-size: 15px;
+        /* letter-spacing: 2% !important; non funziona */   
+    }
 }

@@ -18,7 +18,7 @@ body {
     height: 100%;
 }
 #link-mid {
-    margin-left: 0px; /*soluzine da rivedere*/
+    margin-left: 0; /*soluzine da rivedere*/
 }
 /* repeted in @media query to get hamburger icon styled */
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
@@ -30,7 +30,6 @@ body {
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
-/* repeted in @media query to get hamburger icon styled */
 /* button nav-bar */
 .btn {
     color: #006AFF !important;
@@ -55,7 +54,8 @@ body {
     background-color: #ffffff;
     color: #031C4E;
 }
-.small_form h2 {
+.small_form h4 {
+    font-size: 30px;
     font-weight: 700;
     line-height: 150%;
 }
@@ -83,7 +83,7 @@ body {
 .term {
     text-decoration: underline;
 }
-
+/*title jumbotron*/
 #heading_jumbo {
     color: #ffffff;
 }
@@ -93,7 +93,37 @@ body {
 #heading_jumbo p {
     font-size: 20px;
 }
+/*logos area*/
+.logo {
+    background-color: #F3F5F9;
+}
+.logo h3 {
+    font-size: 15px;
+    letter-spacing: 1%;
+    padding: 24px 0;
+    text-transform: uppercase;
+    color: #6F7B97;
+}
+.logo .container .row a {
+    display: block;
+    padding: 32px 0;
+}
 
+/*MAIN*/
+
+/* Deploy area */
+.deploy {
+    padding: 24px 0;
+}
+.deploy h2 {
+    color: #031C4E;
+    font-size: 35px;
+    font-weight: 600;
+}
+.deploy p {
+    color: #62708D;
+    font-size: 19px;
+}
 
 
 
@@ -141,7 +171,6 @@ body {
 	}
     /*copy-paste*/
     /* my_edit */
-    
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height: 540px;
     }
@@ -159,6 +188,23 @@ body {
         font-size: 21px;
         line-height: 150%;
     }
+    /*logo area heading*/
+    .logo h3 {
+        font-size: 17px;
+        /* letter-spacing: 1% !important; non funziona */
+    }
+    /*MAIN*/
+
+    /* Deploy area */
+    .deploy h2 {
+        color: #031C4E;
+        font-size: 41px;
+        font-weight: 600;
+    }
+    .deploy p {
+        color: #62708D;
+        font-size: 23px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -174,5 +220,23 @@ body {
     #link-mid {
         margin-left: 80px; /*soluzine da rivedere*/
     }
+     /*logo area heading*/
+     .logo h3 {
+        font-size: 15px;
+        /* letter-spacing: 2% !important; non funziona */   
+    }
+    /*MAIN*/
+
+    /* Deploy area */
+    .deploy h2 {
+        color: #031C4E;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .deploy p {
+        color: #62708D;
+        font-size: 23px;
+    }
+
     
 }
