@@ -225,6 +225,13 @@ p.subhead {
     font-size: 27px;
     font-weight: 600;
 }
+.line_table {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.line_table p{
+    display: inline-block;
+}
 
 
 
