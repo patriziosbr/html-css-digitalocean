@@ -214,6 +214,22 @@ p.subhead {
 .business_item {
     margin: 24px 0;
 }
+/* SERVICE TABLE AREA */
+.service_table {
+    height: 800px; /* debug */
+    padding: 42px;
+    background: linear-gradient(#3074ed, #001157);
+}
+.service_table h2 {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+
+
+
+
 
 /* Small devices (tablets, 768px and up) */ 
 @media screen and (min-width:768px) {
