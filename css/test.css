@@ -112,19 +112,44 @@ body {
 /*MAIN*/
 
 /* Deploy area */
-.deploy {
-    padding: 24px 0;
-}
+
 .deploy h2 {
+    padding-top: 24px;
     color: #031C4E;
     font-size: 35px;
     font-weight: 600;
 }
-.deploy p {
+.deploy p.subhead {
     color: #62708D;
     font-size: 19px;
 }
-
+/* deploy list */
+.deploy_list {
+    margin-top: 40px;
+    list-style: none;
+    border-left: 1px solid #79849D;
+    /* margin-left: -40px; */
+}
+.deploy_list p {
+    font-size: 18px;
+    color: #79849D;
+}
+/* dep four content */
+.dep_four_content {
+    margin-top: 40px;
+}
+.dep_four_item {
+    min-height: 200px;
+}
+.dep_four_item h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #031C4E;
+}
+.dep_four_item p{
+    font-size: 14px;
+    color: #79849D;
+}
 
 
 /* Small devices (tablets, 768px and up) */ 
@@ -201,9 +226,18 @@ body {
         font-size: 41px;
         font-weight: 600;
     }
-    .deploy p {
+    .deploy p.subhead {
         color: #62708D;
         font-size: 23px;
+    }
+    .dep_four_item h5{
+        font-size: 20px;
+        font-weight: 700;
+        color: #031C4E;
+    }
+    .dep_four_item p{
+        font-size: 17px;
+        color: #79849D;
     }
 }
 
@@ -233,9 +267,18 @@ body {
         font-size: 35px;
         font-weight: 600;
     }
-    .deploy p {
+    .deploy p.subhead {
         color: #62708D;
         font-size: 23px;
+    }
+    .dep_four_item h5{
+        font-size: 20px;
+        font-weight: 700;
+        color: #031C4E;
+    }
+    .dep_four_item p{
+        font-size: 17px;
+        color: #79849D;
     }
 
     
