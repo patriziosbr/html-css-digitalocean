@@ -78,6 +78,7 @@ body {
     box-shadow: 1px 1px 2px gray;
 }
 .lgt_blue {
+    font-weight: 700;
     color: #006AFF;
 }
 .term {
@@ -150,7 +151,7 @@ p.subhead {
     color: #79849D;
 }
 
-/* designers DA FARE AUMENTI FONT */
+/* designers */
 .designer {
     background-color: #F3F5F9;
     padding: 48px 0;
@@ -188,6 +189,30 @@ p.subhead {
 /* chevron */
 .my_chevron {
     display: none;
+}
+/*FEATURE BUSINESS AREA*/
+.feature_business {
+    padding: 32px 0;
+}
+.feature_business h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #031C4E;
+    font-size: 35px;
+    font-weight: 600;
+}
+.feature_business h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #031C4E;
+}
+.feature_business p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #79849D;
+}
+.business_item {
+    margin: 24px 0;
 }
 
 /* Small devices (tablets, 768px and up) */ 
@@ -260,34 +285,26 @@ p.subhead {
 
     /* Deploy area */
     .deploy h2 {
-        color: #031C4E;
         font-size: 41px;
-        font-weight: 600;
     }
     .deploy p.subhead {
-        color: #62708D;
         font-size: 23px;
     }
     .dep_four_item h5{
         font-size: 20px;
-        font-weight: 700;
-        color: #031C4E;
     }
     .dep_four_item p{
         font-size: 17px;
-        color: #79849D;
     }
     /*designer area*/
     .designer h2 {
         font-size: 41px;
-        font-weight: 600;
     }
     .designer img {
         height: 300px;
     }
     .designer p {
         font-size: 23px;
-        font-weight: 700;
     }
     /* chevron */
     .my_chevron {
@@ -301,6 +318,16 @@ p.subhead {
     .chev_rgt {
         color: #031C4E;
         margin-left: 16px;
+    }
+    /*FEATURE BUSINESS AREA*/
+    .feature_business h2 {
+        font-size: 41px;
+    }
+    .feature_business h5 {
+        font-size: 20px;
+    }
+    .feature_business p{
+        font-size: 16px;
     }
 }
 
@@ -366,5 +393,14 @@ p.subhead {
     .designer figcaption {
         padding-bottom: 8px;
     }
-    
+    /*FEATURE BUSINESS AREA*/
+    .feature_business h2 {
+        font-size: 35px;
+    }
+    .feature_business h5 {
+        font-size: 20px;
+    }
+    .feature_business p{
+        font-size: 16px;
+    }
 }
