@@ -216,9 +216,9 @@ p.subhead {
 }
 /* SERVICE TABLE AREA */
 .service_table {
-    height: 800px; /* debug */
+    /*height: 800px;  debug */
     padding: 42px;
-    background: linear-gradient(#3074ed, #001157);
+    background: linear-gradient(#0045C3, #001157);
 }
 .service_table h2 {
     color: #ffffff;
@@ -228,12 +228,24 @@ p.subhead {
 .line_table {
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
+    margin-top: 16px;
 }
-.line_table p{
+.line_table p {
     display: inline-block;
 }
-
-
+.line_table p:first-child {
+    text-transform: uppercase;
+    margin-right: 5%; 
+}
+.line_table p:last-child {
+    float: right;
+}
+.line_table:last-child {
+    border-bottom: 0;
+}
+.second_table {
+    margin-top: 48px;
+}
 
 
 
