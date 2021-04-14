@@ -4,7 +4,7 @@ body {
 /*nav bar*/
 .navbar-default {
     background-color: #ffffff;
-    border-color: #031C4E;
+    /* border-color: #031C4E; debug */
     color: #031C4E;
     font-weight: 800;
 }
@@ -18,7 +18,7 @@ body {
     height: 100%;
 }
 #link-mid {
-    margin-left: 80px; /*soluzine da rivedere*/
+    margin-left: 0px; /*soluzine da rivedere*/
 }
 /* repeted in @media query to get hamburger icon styled */
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
@@ -43,15 +43,15 @@ body {
     height: 100%;
     padding: 48px 0;
     margin-top: 50px;
-    background-image: url('https://i.ibb.co/BfcZdn9/bg-banner-home.jpg');
+    background-image: url('../img/bg-banner-home.jpg');
     background-position: center;
     background-size: cover;
 }
 /* small form */
-.small_form {
-    height: 375px;
+.small_form {      
+    /* height: 375px; debug*/
     border-radius: 5px;
-    padding: 16px 0 ;
+    padding: 4px 16px 24px;
     background-color: #ffffff;
     color: #031C4E;
 }
@@ -59,17 +59,38 @@ body {
     font-weight: 700;
     line-height: 150%;
 }
+.small_form img {
+    height: 16px;
+    float: left;
+}
+.btn_form {
+    width: 100%;
+    font-weight: 700;
+    border: 0;
+}
+.btn_account {
+    background-color: #006AFF;
+    color: #ffffff !important;
+}
+.btn_google {
+    margin: 16px 0;
+    color: #636363;
+    box-shadow: 1px 1px 2px gray;
+}
 .lgt_blue {
     color: #006AFF;
 }
+.term {
+    text-decoration: underline;
+}
 
-#pippoh1 {
+#heading_jumbo {
     color: #ffffff;
 }
-#pippoh1 h1{
+#heading_jumbo h1{
     font-size: 40px;
 }
-#pippoh1 p {
+#heading_jumbo p {
     font-size: 20px;
 }
 
@@ -78,7 +99,7 @@ body {
 
 /* Small devices (tablets, 768px and up) */ 
 @media screen and (min-width:768px) {
-
+    
 } 
 
 /* Medium devices (desktops, 992px or less) */
@@ -120,9 +141,7 @@ body {
 	}
     /*copy-paste*/
     /* my_edit */
-    #link-mid {
-        margin-left: 0; /*soluzine da rivedere*/
-    }
+    
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height: 540px;
     }
@@ -132,21 +151,28 @@ body {
     .navbar-default .navbar-toggle {
         border-color: transparent;
     }
-    #pippoh1 h1{
+    #heading_jumbo h1{
         font-size: 40px;
+        line-height: 150%;
     }
-    #pippoh1 p {
+    #heading_jumbo p {
         font-size: 21px;
+        line-height: 150%;
     }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width:993px)  {
 
-    #pippoh1 h1{
+    #heading_jumbo h1{
         font-size: 55px;
     }
-    #pippoh1 p {
+    #heading_jumbo p {
         font-size: 21px;
+        line-height: 150%;
     }
+    #link-mid {
+        margin-left: 80px; /*soluzine da rivedere*/
+    }
+    
 }
