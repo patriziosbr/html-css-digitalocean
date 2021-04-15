@@ -128,7 +128,7 @@ p.subhead {
     margin-top: 40px;
     list-style: none;
     border-left: 1px solid #79849D;
-    /* margin-left: -40px; */
+    padding-inline-start: 10px;
 }
 .deploy_list p {
     font-size: 18px;
@@ -336,6 +336,38 @@ p.subhead {
     color: #006AFF;
     font-weight: 600;
 }
+/* FOOTER */
+.foot_bg {
+    padding: 56px 0;
+    background-color: #031C4E;
+    color: #7A859D;
+}
+.foot_bg img {
+    display: block;
+    height: 50px;
+    padding-bottom: 16px;
+}
+.foot_bg ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.foot_logos li {
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.foot_bg h6 {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.foot_bg a {
+    color: #7A859D;
+}
+.foot_bg a:hover {
+    color: #fff;
+}
+
 
 
 /* Small devices (tablets, 768px and up) */ 
