@@ -257,6 +257,70 @@ p.subhead {
 .second_table {
     margin-top: 48px;
 }
+/* DEVELOPMENT */
+.development {
+    background-color: #F3F5F9; 
+}
+.development h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #031C4E;
+    margin: 0;
+    padding: 48px 0;
+}
+.development .chevron {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.square_w {
+    width: 250px;
+    padding: 32px 0;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+.development img {
+    width: 240px;
+    margin-bottom: 24px;
+}
+.development p.cit {
+    font-size: 17px;
+    line-height: 150%;
+    font-weight: 600;
+    color: #79849D;
+}
+.development p.name {
+    color: #031C4E;
+    line-height: 10px;
+}
+.development p.role {
+    font-size: 14px;
+    color: #031C4E;
+    font-weight: 600;
+    line-height: 0;
+}
+.development a.lgt_blue {
+    display: block;
+    margin-top: 24px;
+}
+.development a.lgt_blue:hover {
+    text-decoration: none;
+    color: #031C4E;
+}
+.development .carousel_dots {
+    padding: 24px 0;
+}
+.development .dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #006AFF;
+    border-radius: 50%;
+}
+.dot_full {
+    background-color: #006AFF;
+} 
 
 
 
@@ -384,6 +448,10 @@ p.subhead {
     .feature_business p{
         font-size: 16px;
     }
+    /* DEVELOPMENT */
+    .square_w {
+        width: 350px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -437,7 +505,7 @@ p.subhead {
         height: 12px;
         width: 12px;
         border: 1px solid #006AFF;
-        border-radius: 50%;;
+        border-radius: 50%;
     }
     .dot_full {
         background-color: #006AFF;
@@ -471,5 +539,9 @@ p.subhead {
     /* SERVICE TABLE AREA */
     .second_table {
     margin-top: 16px;
-}
+    }
+      /* DEVELOPMENT */
+      .square_w {
+        width: 520px;
+    }
 }

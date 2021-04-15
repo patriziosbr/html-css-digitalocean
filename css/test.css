@@ -304,6 +304,10 @@ p.subhead {
     display: block;
     margin-top: 24px;
 }
+.development a.lgt_blue:hover {
+    text-decoration: none;
+    color: #031C4E;
+}
 .development .carousel_dots {
     padding: 24px 0;
 }
