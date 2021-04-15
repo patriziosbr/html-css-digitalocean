@@ -177,6 +177,9 @@ p.subhead {
     padding-bottom: 80px;
 }
 .dot {
+    display: none;
+}
+/* .dot {
     display: inline-block;
     height: 12px;
     width: 12px;
@@ -185,7 +188,7 @@ p.subhead {
 }
 .dot_full {
     background-color: #006AFF;
-}
+} */
 /* chevron */
 .my_chevron {
     display: none;
@@ -215,6 +218,46 @@ p.subhead {
     margin: 24px 0;
 }
 /* SERVICE TABLE AREA */
+.service_table {
+    /*height: 800px;  debug */
+    padding: 42px 0;
+    background: linear-gradient(#0045C3, #001157);
+}
+.service_table h2 {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 600;
+}
+.line_table {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin-top: 16px;
+}
+.line_table p {
+    display: inline-block;
+}
+.line_table p:first-child {
+    text-transform: uppercase;
+    margin-right: 10%; 
+}
+.line_table a {
+    float: right;
+}
+.line_table a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.padd_left_16 {
+    padding-left: 16px;
+}
+.line_table:last-child {
+    border-bottom: 0;
+}
+.second_table {
+    margin-top: 48px;
+}
+
 
 
 /* Small devices (tablets, 768px and up) */ 
@@ -308,6 +351,16 @@ p.subhead {
     .designer p {
         font-size: 23px;
     }
+    .dot {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        border: 1px solid #006AFF;
+        border-radius: 50%;;
+    }
+    .dot_full {
+        background-color: #006AFF;
+    } 
     /* chevron */
     .my_chevron {
         display: inline-block;
@@ -379,6 +432,16 @@ p.subhead {
         padding: 16px;
         font-size: 16px;
     }
+    .dot {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        border: 1px solid #006AFF;
+        border-radius: 50%;;
+    }
+    .dot_full {
+        background-color: #006AFF;
+    } 
     /* chevron */
     .my_chevron {
         display: inline-block;
@@ -405,4 +468,8 @@ p.subhead {
     .feature_business p{
         font-size: 16px;
     }
+    /* SERVICE TABLE AREA */
+    .second_table {
+    margin-top: 16px;
+}
 }
