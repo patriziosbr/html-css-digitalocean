@@ -177,6 +177,9 @@ p.subhead {
     padding-bottom: 80px;
 }
 .dot {
+    display: none;
+}
+/* .dot {
     display: inline-block;
     height: 12px;
     width: 12px;
@@ -185,7 +188,7 @@ p.subhead {
 }
 .dot_full {
     background-color: #006AFF;
-}
+} */
 /* chevron */
 .my_chevron {
     display: none;
@@ -217,7 +220,7 @@ p.subhead {
 /* SERVICE TABLE AREA */
 .service_table {
     /*height: 800px;  debug */
-    padding: 42px;
+    padding: 42px 0;
     background: linear-gradient(#0045C3, #001157);
 }
 .service_table h2 {
@@ -235,10 +238,18 @@ p.subhead {
 }
 .line_table p:first-child {
     text-transform: uppercase;
-    margin-right: 5%; 
+    margin-right: 10%; 
 }
-.line_table p:last-child {
+.line_table a {
     float: right;
+}
+.line_table a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.padd_left_16 {
+    padding-left: 16px;
 }
 .line_table:last-child {
     border-bottom: 0;
@@ -340,6 +351,16 @@ p.subhead {
     .designer p {
         font-size: 23px;
     }
+    .dot {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        border: 1px solid #006AFF;
+        border-radius: 50%;;
+    }
+    .dot_full {
+        background-color: #006AFF;
+    } 
     /* chevron */
     .my_chevron {
         display: inline-block;
@@ -411,6 +432,16 @@ p.subhead {
         padding: 16px;
         font-size: 16px;
     }
+    .dot {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        border: 1px solid #006AFF;
+        border-radius: 50%;;
+    }
+    .dot_full {
+        background-color: #006AFF;
+    } 
     /* chevron */
     .my_chevron {
         display: inline-block;
