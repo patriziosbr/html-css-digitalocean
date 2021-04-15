@@ -321,7 +321,21 @@ p.subhead {
 .dot_full {
     background-color: #006AFF;
 } 
-
+/* LAST CTA */
+.last_cta {
+    padding: 42px 0;
+    background: linear-gradient(#0045C3, #001157);
+}
+.last_cta h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.my_cta {
+    background-color: #fff;
+    color: #006AFF;
+    font-weight: 600;
+}
 
 
 /* Small devices (tablets, 768px and up) */ 
