@@ -15,155 +15,170 @@
         <link rel="stylesheet" href="./css/test.css">
         <title>test-ocean</title>
     </head>
+
     <body>
+
+      <header>
         <nav class="navbar my_nav navbar-default navbar-fixed-top">
-            <div class="container">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="./img/logo.png" alt="">
-                </a>
-              </div>
-          
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul id="link-mid" class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">One more separated link</a></li>
-                        </ul>
-                      </li>
-                  <li>
-                      <a href="#">Customer</a>
-                 </li>
-                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">One more separated link</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                      <a href="#">Pricing</a>
-                  </li>
-                  
-                </ul>
-                <form class="navbar-form navbar-left">
-                  
-                    
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Docs</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                    </ul>
-                    <li><a href="#">Login</a></li>
-                  </li>
-                  <li>
-                      <a class="btn my_btn" href="#">Sign Up</a>
-                  </li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
-        <!--/nav-->
-
-         <!--jumbotron-->
-        <div id="banner_home">
-            <div class="container">
-                <div class="row">
-                    <div id="heading_jumbo" class="col-xs-12 col-sm-7">
-                        <h1>The simplest cloud platform for developers & teams</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consectetur aspernatur cupiditate ea officia totam quasi hic laborum deserunt, eos commodi doloremque asperiores facilis accusantium a cumque, quis, veritatis laboriosam.</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-5">
-                        <div class="small_form text-center">
-                            <h4>Deploy your app in seconds.<br>
-                                <span class="lgt_blue"> Get started now.</span>
-                            </h4>
-                        <form action="#" >
-                          <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                          </div>
-                          <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                          </div>
-                          <div>
-                            <a class="btn btn_form btn_account" href="#">Create your account</a>
-                          </div>
-                          <div>
-                            <a class="btn btn_form btn_google" href="#"> 
-                            <img src="./img/google-icon.png" alt="">Sign up with google</a>
-                          </div>
-                          <p>By signing up you agree to the <a href="#" class="term">Term of Service</a>.</p>
-                        </form>
-                        </div>
-                    </div>
-                </div>
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                  <img src="./img/logo.png" alt="">
+              </a>
             </div>
-        </div>
-        <!--/jumbotron-->
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul id="link-mid" class="nav navbar-nav">
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products 
+                        <span class="my_caret">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                <li>
+                    <a href="#">Customer</a>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="my_caret">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+                
+              </ul>
+              <form class="navbar-form navbar-left">
+                
+                  
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Docs</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support
+                    <span class="my_caret">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                  <li><a href="#">Login</a></li>
+                </li>
+                <li>
+                    <a class="btn my_btn" href="#">Sign Up</a>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      <!--/nav-->
 
-         <!--logos-->
-        <div class="logo">
-            <div class="container text-center">
-              <h3>Innovative businesses trust DigitalOcean</h3>
+       <!--jumbotron-->
+      <div id="banner_home">
+          <div class="container">
               <div class="row">
-                <div class="col-xs-6 col-md-2">
-                  <img src="./img/docker.svg" alt="docker logo">
-                </div>
-                <div class="col-xs-6 col-md-2">
-                  <img src="./img/gitlab.svg" alt="gitlab logo">
-                </div>
-                <div class="col-xs-6 col-md-2">
-                  <img src="./img/slack.svg" alt="slack logo">
-                </div>
-                <div class="col-xs-6 col-md-2">
-                  <img src="./img/hashicorp.svg" alt="hashicorp logo">
-                </div>
-                <div class="col-xs-6 col-md-2">
-                  <img src="./img/hashicorp.svg" alt="hashicorp logo">
-                </div>
-                <div class="col-xs-6 col-md-2">
-                  <img src="./img/splunk.svg" alt="gitlab logo">
-                </div>
-                <div class="col-xs-12">
-                  <a class="lgt_blue">View customer stories &#62;</a>
-                </div>
-              </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /.logos -->
+                  <div id="heading_jumbo" class="col-xs-12 col-sm-7">
+                      <h1>The simplest cloud platform for developers & teams</h1>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere consectetur aspernatur cupiditate ea officia totam quasi hic laborum deserunt, eos commodi doloremque asperiores facilis accusantium a cumque, quis, veritatis laboriosam.</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-5">
+                      <div class="small_form text-center">
+                          <h4>Deploy your app in seconds.<br>
+                              <span class="lgt_blue"> Get started now.</span>
+                          </h4>
+                      <form action="#" >
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div>
+                          <a class="btn btn_form btn_account" href="#">Create your account</a>
+                        </div>
+                        <div>
+                          <a class="btn btn_form btn_google" href="#"> 
+                          <img src="./img/google-icon.png" alt="">Sign up with google</a>
+                        </div>
+                        <p>By signing up you agree to the <a href="#" class="term">Term of Service</a>.</p>
+                      </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--/jumbotron-->
 
+       <!--logos-->
+      <div class="logo">
+          <div class="container text-center">
+            <h3>Innovative businesses trust DigitalOcean</h3>
+            <div class="row">
+              <div class="col-xs-6 col-md-2">
+                <img src="./img/docker.svg" alt="docker logo">
+              </div>
+              <div class="col-xs-6 col-md-2">
+                <img src="./img/gitlab.svg" alt="gitlab logo">
+              </div>
+              <div class="col-xs-6 col-md-2">
+                <img src="./img/slack.svg" alt="slack logo">
+              </div>
+              <div class="col-xs-6 col-md-2">
+                <img src="./img/hashicorp.svg" alt="hashicorp logo">
+              </div>
+              <div class="col-xs-6 col-md-2">
+                <img src="./img/hashicorp.svg" alt="hashicorp logo">
+              </div>
+              <div class="col-xs-6 col-md-2">
+                <img src="./img/splunk.svg" alt="gitlab logo">
+              </div>
+              <div class="col-xs-12">
+                <a class="lgt_blue">View customer stories &#62;</a>
+              </div>
+            </div> <!-- /.row -->
+          </div> <!-- /.container -->
+      </div> <!-- /.logos -->
+    </header>
     <!--/header-->
+        
 
     <!--main-->
-
-        <!--deploy-->
-        <section class="container deploy">
+    <main>
+          <!--deploy-->
+          <section class="container deploy">
             <h2 class="text-center">Deploy and scale seamlessly</h2>
             <p class="subhead text-center">Lorem ipsum dolor, sit amet conse amet consectetur adipisicing ctetur adipisicing elit. Eaque a minima nobis adipisicing elit. Eaque a minima nobis odit fuga itaque voluptatum illum quam! Eos autem rem praesentium laboriosam mollitia.</p>
             
@@ -188,7 +203,7 @@
                           <p>Monitor</p>
                         </li>
                       </ul>
-                     </div> <!--ul-->
+                      </div> <!--ul-->
                   </div>
                 </div> <!--col4-->
                 <div class="col-md-8 dep_four_content">
@@ -215,7 +230,7 @@
                       </div>
                     </div>
                 </div>
-                 
+                  
                 </div> <!-- /.row big-->
         </section>
         <!-- /.deploy-->
@@ -233,7 +248,7 @@
                   <img src="./img/slide.jpg" alt="screen-shot">
                   <span class="my_chevron chev_rgt"><i class="fas fa-chevron-right"></i></span>
                   <figcaption>
-                       Create compute servers in 55 seconds or less.
+                        Create compute servers in 55 seconds or less.
                   </figcaption>
                 </figure>
               </div>
@@ -371,164 +386,168 @@
         </section>
         <!--development-->
 
-         <!--last cta-->
+          <!--last cta-->
         <section class="last_cta text-center">
             <h2>Get started now.</h2>
             <a class="btn my_cta" href="#">Create your account</a>
         </section>
         <!--lat cta-->
+     </main>
+     <!--main-->
 
-    <!--main-->
     
     <!--footer-->
-        <section class="foot_bg">
-            <div class="container">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-4">
-                    <img src="./img/logo-small.svg" alt="">
-                    <p>
-                      <strong>&copy; 2018 DigitalOcean, LLC. All rights reserved.</strong>
-                    </p>
-                    <p>Proudly made in NY</p>
-                    <ul class="foot_logos">
-                      <li>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href=""><i class="fab fa-facebook-square"></i></a>
-                      </li>
-                      <li>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-                      </li>
-                      <li>
-                        <a href=""><i class="fab fa-linkedin"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-2">
-                    <h6>Company</h6>
-                    <ul class="ul_site_map">
-                      <li>
-                        <a href="#">About</a>
-                      </li>
-                      <li>
-                        <a href="#">Leadership</a>
-                      </li>
-                      <li>
-                        <a href="#">Link</a>
-                      </li>
-                      <li>
-                        <a href="#">Blog</a>
-                      </li>
-                      <li>
-                        <a href="#">Careers</a>
-                      </li>
-                      <li>
-                        <a href="#">Parent Network</a>
-                      </li>
-                      <li>
-                        <a href="#">Refferal Program</a>
-                      </li>
-                      <li>
-                        <a href="#">Events</a>
-                      </li>
-                      <li>
-                        <a href="#">Press</a>
-                      </li>
-                      <li>
-                        <a href="#">Legal & Security</a>
-                      </li>
-                    </ul>
-                  </div>
+    <footer>
+      <section class="foot_bg">
+        <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-4">
+                <img src="./img/logo-small.svg" alt="">
+                <p class="my_credits">
+                  <strong>&copy; 2018 DigitalOcean, LLC. All rights reserved.</strong>
+                </p>
+                <p class="my_made">Proudly made in NY</p>
+                <ul class="foot_logos">
+                  <li>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <h6>Company</h6>
+                <ul class="ul_site_map">
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Leadership</a>
+                  </li>
+                  <li>
+                    <a href="#">Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Careers</a>
+                  </li>
+                  <li>
+                    <a href="#">Parent Network</a>
+                  </li>
+                  <li>
+                    <a href="#">Refferal Program</a>
+                  </li>
+                  <li>
+                    <a href="#">Events</a>
+                  </li>
+                  <li>
+                    <a href="#">Press</a>
+                  </li>
+                  <li>
+                    <a href="#">Legal & Security</a>
+                  </li>
+                </ul>
+              </div>
 
-                  <div class="col-xs-12 col-sm-6 col-md-2">
-                    <h6>Products</h6>
-                    <ul class="ul_site_map">
-                      <li>
-                        <a href="#">Droplets</a>
-                      </li>
-                      <li>
-                        <a href="#">Spaces</a>
-                      </li>
-                      <li>
-                        <a href="#">Kubernetes</a>
-                      </li>
-                      <li>
-                        <a href="#">Block Storage</a>
-                      </li>
-                      <li>
-                        <a href="#">Tools & Integrations</a>
-                      </li>
-                      <li>
-                        <a href="#">One-Click Apps</a>
-                      </li>
-                      <li>
-                        <a href="#">API</a>
-                      </li>
-                      <li>
-                        <a href="#">Pricing</a>
-                      </li>
-                      <li>
-                        <a href="#">Documentation</a>
-                      </li>
-                      <li>
-                        <a href="#">Release Notes</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-2">
-                    <h6>Community</h6>
-                    <ul class="ul_site_map">
-                      <li>
-                        <a href="#">Tutorials</a>
-                      </li>
-                      <li>
-                        <a href="#">Meetups</a>
-                      </li>
-                      <li>
-                        <a href="#">Q&A</a>
-                      </li>
-                      <li>
-                        <a href="#">Write for Donations</a>
-                      </li>
-                      <li>
-                        <a href="#">Hatch</a>
-                      </li>
-                      <li>
-                        <a href="#">Shop Swag</a>
-                      </li>
-                      <li>
-                        <a href="#">Research Program</a>
-                      </li>
-                      <li>
-                        <a href="#">Currents Research</a>
-                      </li>
-                      <li>
-                        <a href="#">Open Source</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-2">
-                    <h6>Support</h6>
-                    <ul class="ul_site_map">
-                      <li>
-                        <a href="#">Contact support</a>
-                      </li>
-                      <li>
-                        <a href="#">FAQ</a>
-                      </li>
-                      <li>
-                        <a href="#">Network Status</a>
-                      </li>
-                    </ul>                    
-                  </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container --> 
-        </section>
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <h6>Products</h6>
+                <ul class="ul_site_map">
+                  <li>
+                    <a href="#">Droplets</a>
+                  </li>
+                  <li>
+                    <a href="#">Spaces</a>
+                  </li>
+                  <li>
+                    <a href="#">Kubernetes</a>
+                  </li>
+                  <li>
+                    <a href="#">Block Storage</a>
+                  </li>
+                  <li>
+                    <a href="#">Tools & Integrations</a>
+                  </li>
+                  <li>
+                    <a href="#">One-Click Apps</a>
+                  </li>
+                  <li>
+                    <a href="#">API</a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#">Documentation</a>
+                  </li>
+                  <li>
+                    <a href="#">Release Notes</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <h6>Community</h6>
+                <ul class="ul_site_map">
+                  <li>
+                    <a href="#">Tutorials</a>
+                  </li>
+                  <li>
+                    <a href="#">Meetups</a>
+                  </li>
+                  <li>
+                    <a href="#">Q&A</a>
+                  </li>
+                  <li>
+                    <a href="#">Write for Donations</a>
+                  </li>
+                  <li>
+                    <a href="#">Hatch</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop Swag</a>
+                  </li>
+                  <li>
+                    <a href="#">Research Program</a>
+                  </li>
+                  <li>
+                    <a href="#">Currents Research</a>
+                  </li>
+                  <li>
+                    <a href="#">Open Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-2">
+                <h6>Support</h6>
+                <ul class="ul_site_map">
+                  <li>
+                    <a href="#">Contact support</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#">Network Status</a>
+                  </li>
+                </ul>                    
+              </div>
+            </div> <!-- /.row -->
+        </div> <!-- /.container --> 
+       </section>
+     </footer>
     <!--footer-->
+
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

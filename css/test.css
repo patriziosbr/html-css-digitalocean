@@ -7,18 +7,35 @@ body {
     /* border-color: #031C4E; debug */
     color: #031C4E;
     font-weight: 800;
+    /* display: flex;
+    align-items: center; soluzione easy per desktop NO MOBILE*/
+}
+.navbar {
+    min-height: 70px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 .navbar-default .navbar-nav>li>a {
     color: #031C4E;
 }
+.navbar-default .navbar-nav>li>a:hover {
+    color: #006AFF;
+}
 .navbar-nav {
     margin: 0 0;
+}
+.navbar-brand {
+    padding: 12px 15px;
 }
 .navbar-brand img {
     height: 100%;
 }
 #link-mid {
     margin-left: 0; /*soluzine da rivedere*/
+}
+
+.my_caret i.fas {
+    font-size: 10px;
 }
 /* repeted in @media query to get hamburger icon styled */
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
@@ -350,6 +367,12 @@ p.subhead {
 .foot_bg ul {
     list-style: none;
     padding-inline-start: 0;
+}
+p.my_credits {
+    line-height: 0;
+}
+p.my_made {
+    line-height: 15px;
 }
 .foot_logos li {
     height: 16px;
