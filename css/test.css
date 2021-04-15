@@ -391,6 +391,55 @@ p.my_made {
     color: #fff;
 }
 
+/* EXTRA SECTION SHARK*/
+footer {
+    position: relative;
+}
+.shark_wrap {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.chat {
+    width: 300px;
+    height: 60px;
+    padding: 0px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.chat p {
+    margin: 5px 0 0px;
+    padding: 0;
+}
+.shark_bg {
+    padding: 5px 0;
+    background-color: #006AFF;
+    border-radius: 20%;
+    display: inline-block;
+    position: relative;
+}
+.shark_bg img {
+    height: 50px;
+}
+.notification {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    background-color: red;
+    border: 5px solid #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+
 
 
 /* Small devices (tablets, 768px and up) */ 
