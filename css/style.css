@@ -410,6 +410,7 @@ footer {
     display: inline-block;
     vertical-align: middle;
     margin-right: 16px;
+    box-shadow: 2px 2px 2px gray;
 }
 .chat p {
     margin: 5px 0 0px;
